@@ -25,7 +25,7 @@ body {
 }
 
 /* ---start section navbar---*/
-.home-page .navbar {
+ .navbar {
     min-height: 70px;
     display: flex;
     align-items: center;
@@ -33,31 +33,31 @@ body {
     box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.1);
 }
 
-.home-page .navbar .container-fluid {
+.navbar .container-fluid {
     display: flex;
     align-items: center;
 }
 
-.home-page .navbar .logo {
+.navbar .logo {
     width: 80px;
     margin-right: 8%;
 }
 
-.home-page .navbar .logo img {
+.navbar .logo img {
     width: 100%;
     padding-top: 6px;
 }
 
-.home-page .navbar .login a {
+ .navbar .login a {
     color: #707070;
     text-decoration: none;
 }
 
-.home-page .navbar .login a:first-child {
+.navbar .login a:first-child {
     margin-left: 10px;
 }
 
-.home-page .navbar .login a:last-child {
+ .navbar .login a:last-child {
     border-right: 2px solid #707070;
     padding-right: 12px;
 }
@@ -65,18 +65,18 @@ body {
 /* ---end section navbar---*/
 
 /* ---start section competitions---*/
-.home-page .competitions {
+ .competitions {
     padding: 15px;
     min-height: 70px;
     display: flex;
     align-items: center;
 }
 
-.home-page .competitions .text {
+ .competitions .text {
     width: 100%;
 }
 
-.home-page .competitions .text a {
+ .competitions .text a {
     display: block;
     text-align: center;
     color: #707070;
@@ -127,7 +127,7 @@ body {
 /* ---end section tickets-bar---*/
 
 /* ---start section header---*/
-.home-page .header {
+ .header {
     height: 75vh;
     width: 100%;
     background-image: url("../image/crop-legs-kicking-ball-smoke.png");
@@ -136,26 +136,26 @@ body {
     position: relative;
 }
 
-.home-page .header .text {
+ .header .text {
     position: absolute;
     bottom: 15%;
     color: white;
 
 }
 
-.home-page .header .text h4 {
+ .header .text h4 {
     margin-bottom: 20px;
     position: relative;
 }
 
-.home-page .header .text h4 span {
+.header .text h4 span {
     position: absolute;
     top: -20px;
     left: 22%;
     font-size: 16px;
 }
 
-.home-page .header .text a {
+.header .text a {
     background-color: #0263BC;
     color: white;
     text-decoration: none;
@@ -275,26 +275,26 @@ width: 100%;
 /* ---end section congress---*/
 
 /* ---start section partners---*/
-.home-page .partners{
+ .partners{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 80px;
 }
-.home-page .partners h4{
+.partners h4{
     text-align: center;
     margin-bottom: 50px;
 }
-.home-page .partners .container{
+.partners .container{
     width: 60%;
 }
-.home-page .partners .partner{
+.partners .partner{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
 }
-.home-page .partners img{
+.partners img{
     display: inline-block;
     width: 120px;
 }
@@ -384,4 +384,72 @@ width: 100%;
 /* ---end section footer---*/
 
 /*End Home page*/
+
+/*start encounters page*/
+
+/*---start section language---*/
+.encounters-page .language{
+    padding-top: 30px ;
+}
+.encounters-page .language .container{
+    position: relative;
+    width: 80%;
+}
+.encounters-page .language i{
+    position: absolute;
+    left:3%;
+    top: 32%;
+    font-size: 20px;
+}
+.encounters-page .language select{
+    direction: ltr;
+    padding-left: 60px;
+}
+/*---end section language---*/
+
+/*---start section article---*/
+.all-article {
+    line-height: 2em;
+}
+.all-article .container{
+    width: 80%;
+}
+.all-article .article{
+    margin-top: 50px;
+}
+.all-article .article small{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.all-article .article .points-article{
+    line-height: 2.8em;
+    padding-right: 30px;
+}
+.all-article .article .points-article li{
+    padding-right: 30px;
+}
+.all-article .article .points-article li::marker{
+    color: #0088E7 !important;
+    font-size: 20px;
+}
+
+.all-article .article .description {
+    padding-right: 30px;
+}
+.all-article .article .description .image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin:60px 0 10px 0;
+}
+.all-article .article .description img{
+    width: 85%;
+}
+.points-article {
+}
+/*---end section article---*/
+
+
+/*end encounters page*/
+
 
